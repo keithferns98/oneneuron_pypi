@@ -7,8 +7,8 @@ Project_Name="oneneuron_pypi"
 User_Name="keithferns98"
 setuptools.setup(
     name=f"{Project_Name}-{User_Name}",
-    version="0.0.1",
-    author="User_Name",
+    version="0.0.2",
+    author=User_Name,
     author_email="keithfernandes311@gmail.com",
     description="Perceptron package",
     long_description=long_description,
@@ -24,10 +24,10 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     install_requires=[
         "numpy",
         "tqdm"
-        "logging"
+        
     ]
 )
