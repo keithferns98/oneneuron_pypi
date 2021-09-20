@@ -7,7 +7,7 @@ setuptools.setup(
     name="keithferns98-OneNeuron",
     version="0.0.1",
     author="Keith",
-    author_email="keithfernandes311@.com",
+    author_email="keithfernandes311@gmail.com",
     description="Perceptron package",
     long_description=long_description,
     long_description_content_type="text/markdown",
